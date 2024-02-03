@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main-class{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+  overflow: hidden;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden!important;
+    gap: 15rem
+    
+}
+#from{
+    background-color: #2e3241;
+    color: white;
+    font-size: medium;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+
+
+}
+#to{
+    background-color: #2e3241;
+    color: white;
+    font-size: medium;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+
+}
+.clicking{
+    background-color: #2e3241;
+    color: white;
+    font-size: medium;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
+
+}
+
+.container1{
+    color: #3dc6c1;
+    font-size: 30px;
+    padding: 10px;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+}
+.telegram-button{
+    background-color: #3dc6c1;
+    color: white;
+    font-size: medium;
+  padding: 5px;
+  border-radius: 10px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden!important;
+    background-color: green;
+}
+
+.price-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    gap: 5rem
+}
+
+.top-p{
+    color: #3dc6c1;;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.bottom-p{
+    display: flex;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+}
+.large-p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.heading-gray{
+    color: gray;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+  
+  /* Style for the container */
+.table-container {
+    width: 95%;
+    margin: auto;
+    overflow:hidden ;
+    /* margin: 10px 30px; Adjust margin as needed */
+
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; /* Adjust margin as needed */
+    font-size: medium;
+  }
+  
+  /* Style for the table headers */
+  th {
+    color: gray;
+    font-weight: bold;
+  }
+  tr{
+    /* background-color: pink; */
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* margin:  10px 0 !important  Add some space inside the table cells */
+  }
+  
+  /* Style for each row */
+  .rows {
+    color: white;
+    /* margin: 5px 5px; */
+    /* border: 2px solid darkgray; */
+    /* border-radius: 16px; */
+    /* margin: 10px; */
+    /* margin-bottom: 8px; */
+
+  }
+  
+  /* Style for each cell */
+  .rows td {
+    border: none; /* Remove cell borders */
+    padding: 1px; /* Add padding to each cell */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Optional: Add a border-bottom to the last row */
+  .rows:last-child td {
+    border-bottom: none;
+  }
+
+
+/*
+ * react-circular-progressbar styles
+ * All of the styles in this file are configurable!
+ */
+
+ .CircularProgressbar {
+    /*
+     * This fixes an issue where the CircularProgressbar svg has
+     * 0 width inside a "display: flex" container, and thus not visible.
+     */
+    width: 100%;
+    /*
+     * This fixes a centering issue with CircularProgressbarWithChildren:
+     * https://github.com/kevinsqi/react-circular-progressbar/issues/94
+     */
+    vertical-align: middle;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-path {
+    stroke: #3e98c7;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+    /* Used when trail is not full diameter, i.e. when props.circleRatio is set */
+    stroke-linecap: round;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #3e98c7;
+    font-size: 60px;
+    font-weight: bold;
+    dominant-baseline: middle;
+    text-anchor:middle;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+  }
+  
+  /*
+   * Sample background styles. Use these with e.g.:
+   *
+   *   <CircularProgressbar
+   *     className="CircularProgressbar-inverted"
+   *     background
+   *     percentage={50}
+   *   />
+   */
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+    fill: #3e98c7;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+    fill: #fff;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+  }
+  
+  .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
+  }
